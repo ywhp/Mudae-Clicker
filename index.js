@@ -3,7 +3,7 @@ const { Client,WebhookClient, MessageEmbed} = require('discord.js-selfbot-v13');
  client.on('ready', async () => {
    console.log(`${client.user.username} is Ready!`);
  })
-const {token} = require('./JSON/config.json')
+const {token} = require('./config.json')
 const likelist = require("./likelist");
 
 function MudaeClicker (guildId,channelId,Webhook){
